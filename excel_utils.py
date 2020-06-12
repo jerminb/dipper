@@ -13,7 +13,7 @@ class ExcelProperyMapper(dict):
         self.update(*args, **kwargs)
 
     def update(self, *args, **kwargs):
-        for k, v in dict(*args, **kwargs).iteritems():
+        for k, v in dict(*args, **kwargs).items():
             self[k] = v
 
     def _initialize_with_income_stats(self):

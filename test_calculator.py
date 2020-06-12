@@ -47,3 +47,6 @@ class TestStatsCalculator(unittest.TestCase):
         res = self.stats_calc.calc_stats({"income_stats": self.income_mid, "age_stats":self.age_low})
         self.assertEqual(res['mean'].size, 14)
         self.assertEqual(res['std'].size, 14)
+
+if __name__ == '__main__':
+    unittest.main()

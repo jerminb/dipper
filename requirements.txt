@@ -1,0 +1,14 @@
+/Users/jerminb/Library/Python/3.7/bin/virtualenv venv
+source venv/bin/activate
+
+django >= 3.0.7
+pandas >= 1.0.4
+scipy >= 1.4.1
+xlrd >= 1.2.0
+deap >= 1.3.1
+djongo >= 1.3.0
+dnspython >= 1.16.0
+jsonfield >= 3.1.0
+djangorestframework >= 3.11.0
+django-enumfields >= 2.0.0
+typing >= 3.7.4.1
